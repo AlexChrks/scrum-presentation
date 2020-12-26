@@ -1,90 +1,301 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>Scrum</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/white.css" id="theme">
+	<title>Scrum</title>
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Scrum</section>
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/white.css" id="theme">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+
+			<section>
+				Scrum
+				<aside class="notes">
+					Hi Everyone! My name is Alex Cherkas. And welcome to scrum presentation!
+					I'll try to tell you about scrum in 10 minutes.
+				</aside>
+			</section>
+			<section>
+
 				<section>
-					<section>Scrum - <b style="color: rgb(243, 112, 112);">agile</b> project management framework</section>
-					<section data-background-color="rgb(238,192,204)"><img src="./images/agile-manifesto-m30.jpg"></section>
+					Scrum - <b style="color: rgb(243, 112, 112);">agile</b> project management framework
+					<aside class="notes">
+						<p>Scrum thought of as an agile project management framework and it would be crime, if I
+							wouldn't
+							tell a few words about agile.</p>
+					</aside>
 				</section>
-				<section><img src="./images/scrum-methodology.gif"></section>
+
+				<section data-background-color="rgb(238,192,204)">
+					<img src="./images/agile-manifesto-m30.jpg">
+					<aside class="notes">
+						<ul>
+							<li>Agile is an iterative approach to project management and software development.</li>
+							<li>The essence of the agile approach is outlined in the "manifesto", that helps teams
+								deliver
+								value to their customers faster and with fewer headaches.</li>
+							<li>On this slide you can see the Manifesto. While there is the value in the items on the
+								right, we value the items on the left more.</li>
+							<li>So, we found out what is agile and now let's talk about scrum.</li>
+						</ul>
+					</aside>
+				</section>
+
+			</section>
+
+			<section>
+				<img src="./images/scrum-methodology.gif">
+				<aside class="notes">
+					<ul>
+						<li>On this slide you can see Scrum process on one picture.</li>
+						<li>Here present Artifacts, Roles and and Ceremonies.</li>
+						<li>Actually, For the first look the whole picture is not currently clear and understandable.
+							And let's find out a little bit more.</li>
+					</ul>
+				</aside>
+			</section>
+
+			<section>
 				<section>
-					<section><img src="./images/scrum-framework-artifacts.jpg"></section>
-					<section>
-						<h5>Product backlog:</h5>
+					<img src="./images/scrum-framework-artifacts.jpg">
+					<aside class="notes">
+						Let's consider Artifacts in scrum:
+					</aside>
+				</section>
+
+				<section>
+					<h5>Product backlog</h5>
+					<img src="./images/product-backlog.png" style="width: 68%;">
+					<aside class="notes">
 						<ul>
 							<li>A list of all desired work on the project</li>
-							<li>All requirements are described according to a single template, which is called <b style="color: rgb(243, 112, 112);">User Story</b></li>
-							<li>The requirements are designed in such a way that it is obvious and understandable what value they represent to the user.</li>
-							<li>Prioritized by the <b style="color: rgb(243, 112, 112);">product owner</b></li>
-							<li>Reprioritized at the start of each <b style="color: rgb(243, 112, 112);">sprint</b></li>
+							<li>All requirements are described according to a single template, which is called User
+								Story</li>
+							<li>The requirements are designed in such a way that it is obvious and understandable what
+								value they represent to the user.</li>
+							<li>Prioritized by the product owner</li>
+							<li>Reprioritized at the start of each sprint</li>
 						</ul>
-					</section>
-					<section>
-						<h5>Sprint backlog:</h5>
+					</aside>
+				</section>
+
+				<section>
+					<h5>Sprint backlog:</h5>
+					<img src="./images/sprint-backlog.png">
+					<aside class="notes">
 						<ul>
-							<li>This is a list of all the work that needs to be done in the next sprint</li>
+							<li>On this slide you can note difference between Product backlog and sprint Backlog</li>
+							<li>Product backlog act like a parent for Sprint Backlog</li>
+							<li>Obviously, Sprint Backlog is a list of all the work that needs to be done in the next
+								sprint</li>
 							<li>During the sprint, new requirements should not appear in the Sprint backlog.</li>
 							<li>All requirements must be divided into tasks and evaluated</li>
 						</ul>
-					</section>
+					</aside>
+				</section>
 
-					<section>
-						<h5>Sprint burndown chart</h5>
-						<img src="./images/burndown.png">
-					</section>
-				</section>
 				<section>
-					<section><img src="./images/scrum-framework-roles.jpg"></section>
-					<section><img src="./images/product-owner.png"></section>
-					<section><img src="./images/scrum-master.jpg"></section>
-					<section><img src="./images/team.png"></section>
+					<h5>Sprint burndown chart</h5>
+					<img src="./images/burndown.png">
+					<aside class="notes">
+						<ul>
+							<li>On this slide represented a sprint burndown chart.</li>
+							<li>Person-hours or ideal units (or Story Points) act as "burning" elements.</li>
+							<li>The diagram is updated every time a task is completed.</li>
+							<li>In practice, this diagram is very clear: every day you can see how much the team has
+								progressed.</li>
+						</ul>
+					</aside>
 				</section>
+			</section>
+
+			<section>
 				<section>
-					<section><img src="./images/scrum-framework-ceremonies.jpg"></section>
-					<section>
-						<img src="./images/sprint-planning-diagram.svg">
-					</section>
-					<section>
-						<img src="./images/daily-meeting.png" style="width: 80%;">
-					</section>
-					<section>
-						<img src="./images/sprint-review.png">
-					</section>
+					<img src="./images/scrum-framework-roles.jpg">
+					<aside class="notes">
+						Let's consider roles in scrum.
+					</aside>
 				</section>
-				<section><img src="./images/scrum-methodology.gif"></section>
-				<section>Thank you for your attention. Any questions?</section>
-			</div>
+
+				<section>
+					<img src="./images/product-owner.png">
+					<aside class="notes">
+						<ul>
+							<li>Product owner is the person who:</li>
+							<li>Formulates requirements</li>
+							<li>Prioritizes them according market requirements</li>
+							<li>Corrects requirements for each sprint</li>
+							<li>Also he is personally responsible for the value of the requirements for the market /
+								users</li>
+							<li>Only one person</li>
+							<li>The Product Owner is the representative of the unit that owns the product being
+								developed.</li>
+						</ul>
+
+					</aside>
+				</section>
+
+				<section>
+					<img src="./images/scrum-master.jpg">
+					<aside class="notes">
+						<ul>
+							<li>Monitors the correct using of Agile principles and Scrum processes</li>
+							<li>Organizes the work of the team and provides team with everything necessary</li>
+							<li>Protects the team, is responsible for its effectiveness</li>
+							<li>Only one person.</li>
+							<li>The Scrum Master does not assign people to tasks - this is done by the team itself;</li>
+							<li>The Master does not force people to do the work - it is the responsibility of the team;
+							</li>
+							<li>The Master does not tell the Product Owner what requirements he should write - this is
+								the work of the product owner.</li>
+							<li>The Scrum Master's functions are much broader, but a separate presentation is needed to
+								explain them all.</li>
+						</ul>
+					</aside>
+				</section>
+
+				<section>
+					<img src="./images/team.png">
+					<aside class="notes">
+						<ul>
+							<li>Typically team consist of from 5 to 9 people</li>
+							<li>Cross-functional: Programmers, testers, user experience designers, etc.</li>
+							<li>Members should be full-time. May be exceptions (e.g., database administrator)</li>
+							<li>Teams are self-organizing</li>
+							<li>Membership should change only between sprints</li>
+							<li>
+								<ul>
+									The team is responsible for product development in iterations (sprints).
+									The team determines independently:
+									<li>sprint duration</li>
+									<li>command capacity</li>
+									<li>the size of its focus factor</li>
+									<li>the complexity of the requirements that will be implemented in the sprint</li>
+									<li>priority of tasks and much more</li>
+								</ul>
+							</li>
+						</ul>
+					</aside>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<img src="./images/scrum-framework-ceremonies.jpg">
+					<aside class="notes">
+						Now let's consider ceremonies also named as rituals in scrum
+					</aside>
+				</section>
+
+				<section>
+					<img src="./images/sprint-planning.png">
+					<aside class="notes">
+						<ul>
+							<li>Sprint Planning answers the following questions:</li>
+							<li>What can be delivered in the Increment resulting from the upcoming Sprint?</li>
+							<li>How will the work needed to deliver the Increment be achieved?</li>
+							<li>Work is selected from the Product Backlog and pulled into the Sprint Backlog.</li>
+							<li>The work in the Sprint Backlog is not a commitment, it's a forecast. </li>
+						</ul>
+					</aside>
+				</section>
+
+				<section>
+					<img src="./images/daily-meeting.png" style="width: 80%;">
+					<aside class="notes">
+						<ul>
+							<li>Daily standups, also known as Daily Scrum, are quick daily Scrum meetings that the Scrum
+								team has every day of the sprint.</li>
+							<li>The meetings should be time-boxed to 15 minutes to keep the
+								discussion quick but effective.</li>
+							<li>Daily Scrum meetings should be held at the same time and same place every day. It’s best
+								to have
+								them in the morning before the Scrum team starts their work.</li>
+							<li>Daily standups should be attended by the whole team - Scrum Master, product
+								owner/manager and
+								developers.</li>
+							<li>
+								<ul>
+									<li>Each team member should answer following questions:</li>
+									<li>What they did the previous day</li>
+									<li>What they’re planning to do that day</li>
+									<li>Whether there are any obstacles in their way</li>
+								</ul>
+							</li>
+						</ul>
+					</aside>
+				</section>
+
+				<section>
+					<img src="./images/sprint-review.png">
+					<aside class="notes">
+						<ul>
+							<li>Sprint review is the meeting at the end of the sprint where the Scrum team and all the
+								stakeholders get together and discuss what has been accomplished during the sprint and
+								whether the sprint goal has been met.</li>
+							<li>The meeting should be attended by the product owner and manager, Scrum Master,
+								development team, management, and anyone else who is involved in the product creation
+								process.</li>
+							<li>This is usually an informal type of meeting where the Scrum team presents the product
+								increment, while the other stakeholders provide feedback.</li>
+							<li>Sprint review meetings should have a few things on the agenda:
+								<ul>
+									<li>The product owner needs to inform the team on the tasks that have been completed
+										and those that are still not done.</li>
+									<li>The developers need to discuss the problems they encountered during the sprint
+										and how they were solved.</li>
+									<li>The Scrum team answers sprint-related questions from the rest of the team.</li>
+									<li>The team should discuss which tasks come next, something that gives a great
+										basis for the next sprint planning meeting.</li>
+								</ul>
+							</li>
+						</ul>
+					</aside>
+				</section>
+
+				<section>
+					<img src="./images/sprint-retro.png">
+					<aside class="notes">
+						<ul>
+							<li>And the last ritual is Sprint retroperspective</li>
+							<li>A ritual is aimed at sharing experiences within the team.</li>
+							<li>The answers to the following questions should be voiced:</li>
+						</ul>
+					</aside>
+				</section>
+			</section>
+
+			<section><img src="./images/scrum-methodology.gif"></section>
+			<section>Thank you for your attention!</section>
 		</div>
+	</div>
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
 </html>
